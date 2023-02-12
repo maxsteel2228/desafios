@@ -26,7 +26,12 @@ public class enemigopro : MonoBehaviour
     {
         follow();
         watch();
-        
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+
+
     }
 
     private void watch()
@@ -67,4 +72,6 @@ public class enemigopro : MonoBehaviour
         health -= damage;
 
     }
+
+   
 }

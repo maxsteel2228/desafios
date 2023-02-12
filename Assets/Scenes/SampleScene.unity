@@ -1003,8 +1003,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.009072402, y: -0.0025951266, z: -0.009480039, w: -0.9999106}
-  m_LocalPosition: {x: -29.93, y: -3.54, z: -42.22}
+  m_LocalRotation: {x: 0.16417095, y: 0.011821035, z: -0.0019675095, w: 0.9863591}
+  m_LocalPosition: {x: -30.07, y: -3.05, z: -45.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4636,6 +4636,10 @@ PrefabInstance:
       propertyPath: mirar
       value: 
       objectReference: {fileID: 1111855987}
+    - target: {fileID: 1826016649, guid: 38b6efffbb0abe74a9f4b5caa06ae5d8, type: 3}
+      propertyPath: estado
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1826016649, guid: 38b6efffbb0abe74a9f4b5caa06ae5d8, type: 3}
       propertyPath: maxtel
       value: 
